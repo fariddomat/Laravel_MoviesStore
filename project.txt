@@ -1,0 +1,38 @@
+#Control panel
+admin manage the following
+- movies => belongsTo('categories', 'actors', 'directors')
+- categories => hasMany('movies')
+- actors => hasMany('movies')
+- directors => belongsTo('movies')
+
+- roles
+- users => hasRole
+
+- statistics ( day \ month )
+
+- site settings
+
+#Home page
+- Search movies
+- Search actors , director , categories*
+- latest movies
+- categories
+- Sign in / Sign up
+
+#Movie page
+- movie information:
+    - img
+    - directors
+    - actors
+    - rating
+    - description
+    - price
+- download
+- rate
+- comment
+
+#Order movie
+- name
+- email
+- cridet details
+
